@@ -37,7 +37,7 @@ function Index(){
             alert("Your account has been created successfully!!");
             setTimeout(()=>{
               window.location.reload()
-            },5000)
+            },2000)
         }
     }catch(err) {
         console.log(err)
