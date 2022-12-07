@@ -35,6 +35,9 @@ function Index(){
             setEmail(" ");
             setPassword("")
             alert("Your account has been created successfully!!");
+            setTimeout(()=>{
+              window.location.reload()
+            },5000)
         }
     }catch(err) {
         console.log(err)
