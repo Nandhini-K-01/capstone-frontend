@@ -33,7 +33,7 @@ function Index(){
             setLoading(false);
             setUsername("  ");
             setEmail(" ");
-            setPassword(" ")
+            setPassword("")
             alert("Your account has been created successfully!!");
         }
     }catch(err) {
